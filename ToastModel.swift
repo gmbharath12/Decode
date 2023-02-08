@@ -55,7 +55,6 @@ public enum MessageDataValue: Decodable {
             self = .string(str)
             return
         }
-        print("hello!")
         if let obj = try? decoder.singleValueContainer().decode([ToastMessageData]?.self) {
             self = .objectType(obj)
             return
