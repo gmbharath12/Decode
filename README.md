@@ -28,6 +28,6 @@ let jsonString02 =
 """
 `
 
-`jsonString01` has `messageData` key which is an array of objects and `jsonString02` contains `messageData` key which is an array of strings. Basic idea is to use emums. But interestingly it's more tricky than we think. 
+`jsonString01` has `messageData` key which is an array of objects and `jsonString02` contains `messageData` key which is an array of strings. Basic idea is to use emums. But interestingly it's more trickier than we think. 
 
 I went through several iterations. See [GIST here](https://gist.github.com/gmbharath12/06bac99e1e41f89a15a3eda524678bbc)
